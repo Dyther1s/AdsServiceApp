@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="296708e1070748bca26be84b641d3749" Name="Diagram1">
+        <EntityTypeShape EntityType="AdsServiceDBModel.Ads" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsServiceDBModel.AdStatuses" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsServiceDBModel.AdTypes" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsServiceDBModel.Categories" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsServiceDBModel.Cities" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsServiceDBModel.Users" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <AssociationConnector Association="AdsServiceDBModel.FK__Ads__AdTypeID__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsServiceDBModel.FK__Ads__CategoryID__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsServiceDBModel.FK__Ads__CityID__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsServiceDBModel.FK__Ads__StatusID__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsServiceDBModel.FK__Ads__UserID__47DBAE45" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

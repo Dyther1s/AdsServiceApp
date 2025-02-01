@@ -1,0 +1,20 @@
+﻿<Page x:Class="AdsServiceApp.pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AdsServiceApp.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+    <Grid>
+        <TextBlock Text="Авторизация" Style="{StaticResource HeaderStyle}" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0" />
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+            <TextBlock HorizontalAlignment="Center" Style="{StaticResource BodyTextStyle}" Text="Логин"/>
+            <TextBox Name="UsernameTextBox" Style="{StaticResource TextBoxStyle}" ToolTip="Username" Margin="0,10,0,10" Height="35" />
+            <TextBlock HorizontalAlignment="Center" Style="{StaticResource BodyTextStyle}" Text="Пароль"/>
+            <PasswordBox  x:Name="PasswordBox" Margin="0,10,0,10" Height="35" />
+            <Button Content="Авторизация" Style="{StaticResource AccentButtonStyle}" Click="LoginButton_Click" Height="35" />
+        </StackPanel>
+    </Grid>
+</Page>
